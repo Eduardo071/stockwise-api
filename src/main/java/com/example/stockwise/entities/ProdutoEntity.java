@@ -1,10 +1,14 @@
 package com.example.stockwise.entities;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.math.BigDecimal;
 
 @Entity
 @Table(name = "Produto")
+@Getter
+@Setter
 public class ProdutoEntity {
 
     @Id

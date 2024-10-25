@@ -1,8 +1,12 @@
 package com.example.stockwise.entities;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "Funcionario")
+@Getter
+@Setter
 public class FuncionarioEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

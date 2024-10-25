@@ -1,13 +1,10 @@
 package com.example.stockwise.controllers;
 
 import com.example.stockwise.DTO.CategoriaDTO;
-import com.example.stockwise.entities.CategoriaEntity;
 import com.example.stockwise.services.CategoriaService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
